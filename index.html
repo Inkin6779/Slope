@@ -3,7 +3,6 @@
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8024356722027062"
      crossorigin="anonymous"></script>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VKK1BVCT2G"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -54,10 +53,6 @@ Drop a star on the repo if you enjoy.
 --->
 
 <body style="margin: 0; overflow: hidden;">
-    <div class="alert">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-        Want to play tetris? <a href="https://goldenn.dev/tetris/">Click here!</a> REMOVE ADS by clicking the white arrow below them!
-    </div>
     <div class="webgl-content">
         <div id="gameContainer" style="width: 100%; height: 100%; margin: 0;"></div>
     </div>
@@ -66,3 +61,8 @@ Drop a star on the repo if you enjoy.
     <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101393847ns.gif" /></p></noscript>
 </body>
 <!-- Slope game by y8 games, not me.-->
+<script>
+  window.onbeforeunload = function() {
+      return "Are you sure you want to reload?";
+  };
+</script>
