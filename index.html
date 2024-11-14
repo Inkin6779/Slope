@@ -7,6 +7,7 @@
     <script src="TemplateData/unityloader41.js"></script>
     <script>
         var gameInstance = UnityLoader.instantiate("gameContainer", "Build/slope.json", { onProgress: UnityProgress, Module: { onRuntimeInitialized: function() { UnityProgress(gameInstance, "complete") } } });
+    </script>
     <style>
         .alert {
           padding: 20px;
